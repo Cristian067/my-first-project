@@ -18,6 +18,71 @@ public class MyFirstScript : MonoBehaviour
     //variable con caracteres
     [SerializeField]  private string nick = "Juan";
 
+    [SerializeField] private float num1;
+    [SerializeField] private float num2;
+    [SerializeField] private float coins;
+
+    private float num3;
+    private float result;
+
+    [SerializeField] private int hour;
+
+
+    private void Start()
+    {
+        /*
+        Debug.Log("Hola, mundo");
+        Debug.Log(age);
+        Debug.Log(speed);
+        Debug.Log(isDead);
+        Debug.Log(nick);
+        Debug.Log($"nombre de usuario: {nick}");
+        Debug.Log("Edad: " + age);
+        Debug.Log(string.Format("La velocidad es {0} m/s", speed));
+        *//*
+        
+        
+        while(num3 >= 10) { }
+        *//*
+        num3 = num1 + num2;
+        Debug.Log(num3);
+        Debug.Log($"Monedas: {coins}");
+        //coins = coins + 10;
+        coins += 10;
+        Debug.Log($"Monedas: {coins}");
+        *//*
+
+        Debug.Log($"{num1} + {num2} = {num1 + num2}");
+        Debug.Log($"{num1} - {num2} = {num1 - num2}");
+        Debug.Log($"{num1} * {num2} = {num1 * num2}");
+        Debug.Log($"{num1} / {num2} = {num1 / num2}");
+
+        *//*
+        coins = coins + 5;
+        coins += 5;
+        coins++;
+        
+        coins = coins - 5;
+        coins -= 5;
+        coins--;
+        
+        coins = coins * 5;
+        coins *= 5;
+
+        coins = coins / 5;
+        coins /= 5;
+        */
+
+
+
+
+        Debug.Log(hour % 9);
+        
+
+
+
+
+    }
 
 
 }

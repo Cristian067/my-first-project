@@ -244,12 +244,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819547038}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7956de80ef463664aaef046d6f8a3fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   legs: 2
+  aName: Pollo
 --- !u!135 &819547040
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -372,6 +373,10 @@ MonoBehaviour:
   speed: 3.13
   isDead: 0
   nick: Juan
+  num1: 5
+  num2: 2
+  coins: 6
+  hour: 254
 --- !u!65 &907631908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -452,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 907631906}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4309177, y: 5.38, z: -6.2484255}
+  m_LocalPosition: {x: 1.15, y: 5, z: -6.2484255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -562,7 +567,6 @@ GameObject:
   - component: {fileID: 1286649691}
   - component: {fileID: 1286649690}
   - component: {fileID: 1286649689}
-  - component: {fileID: 1286649688}
   - component: {fileID: 1286649693}
   m_Layer: 0
   m_Name: dog
@@ -571,22 +575,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1286649688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286649687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ac7bcead8272d3499ff4925239f3797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  age: 18
-  speed: 3.13
-  isDead: 0
-  nick: Juan
 --- !u!65 &1286649689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -680,12 +668,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286649687}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7956de80ef463664aaef046d6f8a3fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   legs: 4
+  aName: Perro
 --- !u!1 &1397952284
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,12 +702,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397952284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7956de80ef463664aaef046d6f8a3fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   legs: 6
+  aName: Abeja
 --- !u!135 &1397952286
 SphereCollider:
   m_ObjectHideFlags: 0
