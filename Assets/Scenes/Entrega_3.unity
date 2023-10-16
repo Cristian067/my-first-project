@@ -347,6 +347,9 @@ MonoBehaviour:
   dNum1: 2
   dNum2: 2
   grade: 10
+  day: 35
+  month: 4
+  year: 2036
   week: domingo
   age: 20
   rank: gold

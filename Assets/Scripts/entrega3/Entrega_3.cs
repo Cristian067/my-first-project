@@ -17,6 +17,11 @@ public class Entrega_3 : MonoBehaviour
 
     [SerializeField] private int grade;
 
+    [SerializeField] private int day;
+    [SerializeField] private int month;
+    [SerializeField] private int year;
+
+
     [SerializeField] private string week;
 
     [SerializeField] private int age;
@@ -77,6 +82,17 @@ public class Entrega_3 : MonoBehaviour
         else if (grade < 5)
         {
             Debug.Log("D = suspendido");
+        }
+
+        //ej.5
+
+        if (day <=30 && month <= 12 && year > 0)
+        {
+            Debug.Log($"La fecha {day}/{month}/{year} es valida");
+        }
+        else
+        {
+            Debug.Log($"La fecha {day}/{month}/{year} no es valida");
         }
 
         //ej.8
