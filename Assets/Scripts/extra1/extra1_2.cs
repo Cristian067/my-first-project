@@ -20,7 +20,17 @@ public class extra1_2 : MonoBehaviour
     [SerializeField] private int nacYear;
 
     //ej.16
-    [SerializeField] private int[] numeros;
+    private int[] numeros = new int[5];
+
+    //ej.17
+    private string[] strings = new string[10];
+    
+    //ej.18
+    private float[] floats = new float[3];
+
+    //ej.19
+    [SerializeField] private string[] vocals = new string[5];
+    
 
 
     // Start is called before the first frame update
@@ -43,16 +53,33 @@ public class extra1_2 : MonoBehaviour
 
 
         //ej.16
-
+        /*
         numeros = new int[5];
-
+*/
         numeros[0] = 1;
         numeros[1] = 2;
         numeros[2] = 3;
         numeros[3] = 4;
         numeros[4] = 5;
-        
-        Debug.Log(numeros[1]);
+
+        //ej.20
+        Debug.Log(numeros[0]);
+
+        //ej.21
+        Debug.Log(strings[0]);
+
+        //ej.22
+        floats[1] = 1.5f;
+
+        //ej.23
+        Debug.Log(vocals[3]);
+
+        //ej.24
+        Debug.Log(strings.Length);
+
+        //ej.25
+        Debug.Log(numeros[0] + numeros[4]);
+
 
 
     }

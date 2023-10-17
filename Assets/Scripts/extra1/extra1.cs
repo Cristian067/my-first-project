@@ -135,13 +135,20 @@ public class extra1 : MonoBehaviour
 
         //ej.11
 
-        bool boolBi = (4 % anio == 4 && 100 % anio != 100 || 4 % anio == 4 && 400 % anio == 400) ; 
+        bool boolBi = (anio % 4 == 0 && anio % 100 != 0 || anio % 400 == 0); 
+
+
+        if (boolBi)
+        {
+            Debug.Log($"El año {anio} es bisiesto");
+        }
+        /*
 
         Debug.Log(boolBi);
-        Debug.Log(4 % anio);
-        Debug.Log(400 % anio);
-        Debug.Log("100" + 100 % anio);
-
+        Debug.Log(anio % 4);
+        Debug.Log(anio % 400);
+        Debug.Log("100" + anio % 100 );
+        */
 
 
 
