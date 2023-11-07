@@ -143,7 +143,12 @@ public class Entrega4 : MonoBehaviour
             day = day - 28;
         }
 
-        if(day > 31)
+        if (day > 30 && (month == 4 || month == 6 || month == 9 || month == 11))
+        {
+            day = day - 30;
+            month++;
+        }
+        else if (day > 31)
         {
             day = day - 31;
             month++;
